@@ -15,3 +15,8 @@ function translatePossessed (message: string): string{
     let translation: string = organizedLetters.join(" ");
     return translation
 };
+
+console.log(translatePossessed('i yojne gnihctaw uoy'));
+console.log(translatePossessed('siht si gnorw'));
+console.log(translatePossessed('      '));
+console.log(translatePossessed('dooG secitcarP'));
