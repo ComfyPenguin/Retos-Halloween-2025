@@ -1,5 +1,5 @@
 function countSheep(letters: string): number {
-    // Para formar sheep necesitamos: s=1, h=1, e=2, p=1
+    // Para formar sheep se necesita: s=1, h=1, e=2, p=1
     let countS = 0;
     let countH = 0;
     let countE = 0;
@@ -27,6 +27,7 @@ function countSheep(letters: string): number {
     return count;
 }
 
+// Tests
 console.log(countSheep('sheepxsheepy'));
 console.log(countSheep('sshhheeeepppp'));
 console.log(countSheep('hola'));

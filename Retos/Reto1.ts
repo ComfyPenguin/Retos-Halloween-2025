@@ -16,6 +16,7 @@ function translatePossessed (message: string): string{
     return translation
 };
 
+// Tests
 console.log(translatePossessed('i yojne gnihctaw uoy'));
 console.log(translatePossessed('siht si gnorw'));
 console.log(translatePossessed('      '));
